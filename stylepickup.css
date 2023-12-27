@@ -1,0 +1,140 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color:rgb(107, 71, 41);
+	position: relative;
+
+}
+header,footer{
+	text-align: center;
+	background: rgb(138, 66, 24);
+	color: black;
+}
+footer a img:hover{
+	transform: scale(1.2);
+}
+header img{
+	width: 100%;
+}
+
+footer{
+	padding: 20px;
+}
+.type-car{
+	display:inline-block;
+	margin: 1em;
+	padding: 1em;
+	border: 3px solid rgb(7, 7, 7);
+	border-radius: 10px;
+    max-width: 550px
+	
+}
+.type-car, .type-car button{
+	position:static;
+	bottom: 10px;
+	color: rgba(241, 241, 241, 0.89);
+}
+.type-car button{
+	padding:  5px;
+	background-color: rgb(10, 5, 5);
+	border: 2px solid rgb(17, 6, 6);
+	border-radius: 10px;
+	width: 250px;
+	height: 50px;
+	cursor: pointer;
+  
+}
+.type-car img{
+	width: 550px;
+	height: 400px;
+}
+.type-car p {
+    margin-top: 20px; /* Ajuste a margem superior conforme necessário */
+    color: rgba(241, 241, 241, 0.89);
+}
+.container{
+	text-align: center;
+	margin: -80px;
+	background-color: rgb(3, 1, 0);
+}
+h2{
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	display: inline-block;
+	border: 4px double gray;
+	border-width: 4px 0;
+	padding: 2.5em 0em;
+	position: absolute;
+	top: 9%;
+	left: 52%;
+	width: 40em;
+	margin: 0 0 0 -20em;
+	color: white;
+	text-align: center;
+    background: rgba(0, 0, 0, 0.568);
+}
+
+h1{
+	text-transform: uppercase;
+	display: inline-block;
+	color: white;
+}
+.navbar{
+	background-color: #070707;
+}
+
+.nav-list{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.nav-list li{
+	float: left;
+}
+
+.nav-list li a{
+	display: block;
+	color: rgba(226, 217, 213, 0.911);
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 11px;
+}
+
+/*DROPDOWN*/
+.dropdown{
+	float:left;
+	overflow: hidden;
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	z-index: 1;
+}
+.content {
+    position: relative; 
+    z-index: 0; 
+}
+
+
+.content p {
+    color: white;
+}
+
+.dropdown .dropdown-content a{
+	float: none;
+	color: black;
+	display: block;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+	background-color: #eeecec;
+}
+
+.dropdown .dropdown-content a:hover{
+	background-color: #f0a161;
+	color: rgb(146, 78, 33);
+}
